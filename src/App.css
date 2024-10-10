@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+.app-header {
+  background-color: #63569e; /* Color de fondo del encabezado */
+  padding: 10px 20px; /* Espaciado del encabezado */
+  text-align: center; /* Centra el contenido */
+}
+
+.nav-list {
+  list-style-type: none; /* Elimina el estilo de lista */
+  padding: 0; /* Elimina el padding */
+  margin: 0; /* Elimina el margen */
+  display: flex; /* Utiliza Flexbox para el diseño horizontal */
+  justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.nav-list li {
+  margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+.nav-list a {
+  color: white; /* Color del texto del enlace */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.nav-list a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+
+main {
+  padding: 20px; /* Espaciado del contenido principal */
+}

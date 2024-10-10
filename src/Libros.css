@@ -1,0 +1,42 @@
+/* Libros.css */
+.container {
+    text-align: center;
+}
+
+.libros-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+}
+
+.libros-table th,
+.libros-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.libros-table th {
+    background-color: #9a99dd; /* Color verde para los encabezados */
+    color: white; /* Texto blanco para los encabezados */
+}
+
+.libros-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color gris claro para filas pares */
+}
+
+.libros-table tr:nth-child(odd) {
+    background-color: #ffffff; /* Color blanco para filas impares */
+}
+
+.libros-table tr:hover {
+    background-color: #d1e7dd; /* Color verde claro al pasar el ratón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+h2 {
+    color: #333; /* Color del encabezado */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente si lo deseas */
+}
+
